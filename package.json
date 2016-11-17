@@ -12,6 +12,7 @@
   },
   "scripts": {
     "build": "webpack",
+    "flyweb": "node index.js",
     "serve": "webpack-dev-server --content-base src --progress --watch --history-api-fallback --inline --hot --host 0.0.0.0 --port 9090"
   },
   "repository": {
